@@ -1,6 +1,8 @@
 import React, { useEffect } from "react";
 import '../styles/HomePage.css'
-
+import earthImage from '../assets/earth.png'
+import saturnImage from '../assets/saturn.png'
+import astronautImage from '../assets/astronaut.png'
 
 const HomePage = () => {
   return (
@@ -50,8 +52,8 @@ const HomePage = () => {
 
           <div className="welcomeimage-18 pos-abs">
             <img
-              src="https://s3-alpha-sig.figma.com/img/aa40/4c41/7d6fd22ef816c2d0a58be6d7bf19589b?Expires=1744588800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=KoHiQrRUC2um5aphFLqogmwRtSK~FNPOSPtjodTo~vXOksA~LraPnMcPhz0ar3c3TMII4Cu9ym7yIwozY9HnWjbAB3tW7WxcngtepHPXhW25Y-7BU9vus0GCjC3qKXtTj2jZCg1OQA3U5dmrth5hq4UV8zmQ4SYw4ZZmB3IZZt71P6SNMegwaqqftbFccA8DGcq2RnTgQeyc-8JwCRCFDecYPeu8icLhINvlwsyD-DyL6sDiZT2mlnbkZUb7wRuGPofqZmpC7DEDoEh8xksgFkHpcrMTiOh34kOy9kO0l-sp4DDp~FOrgvOqepktBuZ6X94qUp9vGMS-QoG2z0tzng__"
-              className="pos-abs image-div bg-no-repeat fill-parent bg-cover nodeBg-18 "
+              src={saturnImage}
+              className="pos-abs image-div bg-no-repeat fill-parent bg-cover nodeBg-18"
               alt="18-ALT"
             />{" "}
           </div>
@@ -195,8 +197,8 @@ const HomePage = () => {
 
           <div className="image-1-158 pos-abs">
             <img
-              src="https://s3-alpha-sig.figma.com/img/34c2/1fac/0f043514ab0f3f2f2061b58a4a5b13c9?Expires=1744588800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=YeaR8JegxVTvHK7uYRMvIlgRich0yh3nD-4lIdw-7Rc2SlzBI7l2zLKDoZbWO9S0tpFXCIbPLqH4xb1rQ-ZUIHkINiTEcgxM21YIrRv4-ERpUWbpWg095HI6Yj3ZhveJmVjON7KOfzbCAAWRfKcJjbM8GbfdbJiOc5tGM-ql8FlQ1GklE9LDouvIwSRpIuUgt88BLYYn8Rb3fHL5wI~4dOg6ECPQwhOrdD1Jrd3akjbXRCCWAgJtcbfB6bGCBGm26y~aE5y-tMiGmabU9D9E3umr7aWBMYvWEpwH7Gikq-oK2eCTgUi-2BkI7pq3XSeYv3ip9nafRDyYquyaCatIvA__"
-              className="pos-abs image-div bg-no-repeat fill-parent bg-cover nodeBg-158 "
+              src={earthImage}
+              className="pos-abs image-div bg-no-repeat fill-parent bg-cover nodeBg-158 planet"
               alt="158-ALT"
             />{" "}
           </div>
@@ -250,12 +252,12 @@ const HomePage = () => {
           <div className="rectangle-12-170 pos-abs"></div>
 
           <div className="div-172 pos-abs">
-            <span className="div-172-0">{`исследование текущего состояния космических технологий в Казахстане, анализ деятельности ключевых игроков на рынке мирового космического туризма, оценка перспектив развития отрасли и её влияния на экономику страны, а также разработка рекомендаций по внедрению инновационных решений.     `}</span>
+            <span className="div-172-0">{`Исследование текущего состояния космических технологий в Казахстане, анализ деятельности ключевых игроков на рынке мирового космического туризма, оценка перспектив развития отрасли и её влияния на экономику страны, а также разработка рекомендаций по внедрению инновационных решений.     `}</span>
           </div>
 
           <div className="image-2-173 pos-abs">
             <img
-              src="https://s3-alpha-sig.figma.com/img/7b95/a322/9bd47661ef31d0d5382f431fae8f91df?Expires=1744588800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=rMXEiZLSqypubGJVTcG80ftandgO2K44-wDQre41eXO0qjWbaAvil6~aooGbFLfpleD2RpDSPx0vBHFIHmgTGJ~0RefckXwE4AMNMUAGD0akQpLni8WYaLrsaCyPYysTC0r3FJ5eFYy-IvJ5psd3NyDJE~K2qCR6yslbQT-FROT~AECTm9oBWEh3JI5JoMYINSkU-b-FQiZqa6UG21wiDxqqn5E7qIJoICvte69lG3ycPTOP-IoZYpn2gU7ag9m8PBkd4J~4chU5fng9dOxK7anRX-1JWF10MDiCRJqiNbqjaTP~Q6xBU2Dqsle~XRULjrDk9toJxLN-vgLK5md24A__"
+              src={astronautImage}
               className="pos-abs image-div bg-no-repeat fill-parent bg-cover nodeBg-173 "
               alt="173-ALT"
             />{" "}
