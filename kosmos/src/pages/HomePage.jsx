@@ -3,6 +3,7 @@ import '../styles/HomePage.css'
 import earthImage from '../assets/earth.png'
 import saturnImage from '../assets/saturn.png'
 import astronautImage from '../assets/astronaut.png'
+import { Link } from "react-router-dom";
 
 const HomePage = () => {
   return (
@@ -20,23 +21,23 @@ const HomePage = () => {
             <div className="rectangle-2-111 pos-abs"></div>
 
             <div className="div-112 pos-abs">
-              <span className="div-112-0">{`Главная`}</span>
+              <span className="div-112-0"><Link to={"/"} className="nav1">{`Главная`}</Link></span>
             </div>
 
             <div className="div-113 pos-abs">
-              <span className="div-113-0">{`Космос и РК`}</span>
+              <span className="div-113-0"><Link to={"/space"} className="nav1">{`Космос и РК`}</Link></span>
             </div>
 
             <div className="div-116 pos-abs">
-              <span className="div-116-0">{`Мировой опыт`}</span>
+              <span className="div-116-0"><Link to={"/worldexperience"} className="nav1">{`Мировой опыт`}</Link></span>
             </div>
 
             <div className="div-114 pos-abs">
-              <span className="div-114-0">{`Расходы`}</span>
+              <span className="div-114-0">{`Космотуризм`}</span>
             </div>
 
             <div className="div-115 pos-abs">
-              <span className="div-115-0">{`Плюсы и минусы`}</span>
+              <span className="div-115-0">{`Заключение`}</span>
             </div>
           </div>
 
@@ -309,23 +310,23 @@ const HomePage = () => {
           </div>
 
           <div className="div-183 pos-abs">
-            <span className="div-183-0">{`Главная`}</span>
+            <span className="div-183-0"><Link to={"/"} className="nav1">{`Главная`}</Link></span>
           </div>
 
           <div className="div-184 pos-abs">
-            <span className="div-184-0">{`Космос и РК`}</span>
+            <span className="div-184-0"><Link to={"/space"} className="nav1">{`Космос и РК`}</Link></span>
           </div>
 
           <div className="div-185 pos-abs">
-            <span className="div-185-0">{`Мировой опыт`}</span>
+            <span className="div-185-0"><Link to={"/worldexperience"} className="nav1">{`Мировой опыт`}</Link></span>
           </div>
 
           <div className="div-186 pos-abs">
-            <span className="div-186-0">{`Расходы`}</span>
+            <span className="div-186-0">{`Космотуризм`}</span>
           </div>
 
           <div className="div-187 pos-abs">
-            <span className="div-187-0">{`Плюсы и минусы`}</span>
+            <span className="div-187-0">{`Заключение`}</span>
           </div>
         </section>
       </div>
