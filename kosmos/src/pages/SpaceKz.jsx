@@ -57,7 +57,7 @@ const SpaceKz = () => {
           </div>
 
           <div className="div-4917 pos-abs">
-            <span className="div-4917-0">{`Космотуризм`}</span>
+            <span className="div-4917-0"><Link to={"/tourism"} className="nav1">{`Космотуризм`}</Link></span>
           </div>
 
           <div className="div-4918 pos-abs">
@@ -247,7 +247,7 @@ const SpaceKz = () => {
           </div>
 
           <div className="div-4964 pos-abs">
-            <span className="div-4964-0">{`Космотуризм`}</span>
+            <span className="div-4964-0"><Link to={"/tourism"} className="nav1">{`Космотуризм`}</Link></span>
           </div>
 
           <div className="div-4965 pos-abs">

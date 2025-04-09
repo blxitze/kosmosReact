@@ -33,7 +33,7 @@ const HomePage = () => {
             </div>
 
             <div className="div-114 pos-abs">
-              <span className="div-114-0">{`Космотуризм`}</span>
+              <span className="div-114-0"><Link to={"/tourism"} className="nav1">{`Космотуризм`}</Link></span>
             </div>
 
             <div className="div-115 pos-abs">
@@ -322,7 +322,7 @@ const HomePage = () => {
           </div>
 
           <div className="div-186 pos-abs">
-            <span className="div-186-0">{`Космотуризм`}</span>
+            <span className="div-186-0"><Link to={"/tourism"} className="nav1">{`Космотуризм`}</Link></span>
           </div>
 
           <div className="div-187 pos-abs">

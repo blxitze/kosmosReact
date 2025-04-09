@@ -28,7 +28,7 @@ const WorldExperience = () => {
             </div>
 
             <div className="div-6193 pos-abs">
-              <span className="div-6193-0">{`Космо-туризм`}</span>
+              <span className="div-6193-0"><Link to={"/tourism"} className="nav1">{`Космотуризм`}</Link></span>
             </div>
 
             <div className="div-6194 pos-abs">
@@ -268,7 +268,7 @@ const WorldExperience = () => {
           </div>
 
           <div className="div-61162 pos-abs">
-            <span className="div-61162-0">{`Космо-туризм`}</span>
+            <span className="div-61162-0"><Link to={"/tourism"} className="nav1">{`Космотуризм`}</Link></span>
           </div>
         </section>
       </div>
