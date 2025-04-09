@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import '../styles/WorldExperience.css'
 import { Link } from "react-router-dom";
+import RocketModel from "../components/RocketModel";
 
 const WorldExperience = () => {
   return (
@@ -32,7 +33,7 @@ const WorldExperience = () => {
             </div>
 
             <div className="div-6194 pos-abs">
-              <span className="div-6194-0">{`Заключение`}</span>
+              <span className="div-6194-0"><Link to={"/conclusion"} className="nav1">{`Заключение`}</Link></span>
             </div>
           </div>
 
@@ -146,11 +147,7 @@ const WorldExperience = () => {
           <div className="line-12-61144 pos-abs"></div>
 
           <div className="image-5-61134 pos-abs">
-            <img
-              src="https://s3-alpha-sig.figma.com/img/0898/5690/4b2e070662b647bdea1af2227ba73caa?Expires=1745193600&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=tWMI9eiJ~cUJwVuIVJOhojZWexWhB-5gr~TNVHyGMD5SCZtf3eAlQYrBjqdckgpSNV~ofEkw3P~mvAONEDQv0Eo4sqYwtzoV-yxEvwQqwieA~jFT9wxdD2BSCKE4KaCDgJlFU~QLqd6pUXOivG2Kf~ZyJw0pV62TqiTQBvSNIkkOnFvCzDrZ5ByHBRabpsX4ktnxmHRukmFUMm8PsXHWQ~I7waJIm71K632QIM91wEJom7LXuO7Fl2q8ity4JyF34O-mGBBlYWEfnWHNMRNu3ZsqoEC0YsMuhpdMrnZbcnS8raXMNcwvxfCLd890oo5oY4xTwtW2F5kqP-5zShSrTQ__"
-              className="pos-abs image-div bg-no-repeat fill-parent bg-cover nodeBg-61134 "
-              alt="61134-ALT"
-            />{" "}
+            <RocketModel />
           </div>
 
           <div className="rectangle-29-61133 pos-abs"></div>
@@ -219,7 +216,7 @@ const WorldExperience = () => {
           <div className="rectangle-27-61127 pos-abs"></div>
 
           <div className="div-61128 pos-abs">
-            <span className="div-61128-0">{`Скачать`}</span>
+            <a href="/Космотуризм РК.docx" download className="div-61128-0 download-link">{`Скачать`}</a>
           </div>
 
           <div className="vector-20-61130 pos-abs">
@@ -231,7 +228,7 @@ const WorldExperience = () => {
           <div className="rectangle-27-61155 pos-abs"></div>
 
           <div className="c-134-61156 pos-abs">
-            <span className="c-134-61156-0">{`КГУ “Лицей № 134`}</span>
+            <span className="c-134-61156-0">{`КГУ "Лицей № 134`}</span>
           </div>
 
           <div className="c-10a-61163 pos-abs">
@@ -264,7 +261,7 @@ const WorldExperience = () => {
           </div>
 
           <div className="div-61161 pos-abs">
-            <span className="div-61161-0">{`Расходы`}</span>
+            <span className="div-61161-0"><Link to={"/conclusion"} className="nav1">{`Заключение`}</Link></span>
           </div>
 
           <div className="div-61162 pos-abs">

@@ -61,7 +61,7 @@ const SpaceKz = () => {
           </div>
 
           <div className="div-4918 pos-abs">
-            <span className="div-4918-0">{`Заключение`}</span>
+            <span className="div-4918-0"><Link to={"/conclusion"} className="nav1">{`Заключение`}</Link></span>
           </div>
         </section>
         {/* second p1 */}
@@ -194,7 +194,7 @@ const SpaceKz = () => {
           <div className="rectangle-33-4951 pos-abs"></div>
 
           <div className="div-4952 pos-abs">
-            <span className="div-4952-0">{`Скачать`}</span>
+            <a href="/Космотуризм РК.docx" download className="div-4952-0 download-link">{`Скачать`}</a>
           </div>
 
           <div className="vector-23-4954 pos-abs">
@@ -214,7 +214,7 @@ const SpaceKz = () => {
           <div className="rectangle-27-4958 pos-abs"></div>
 
           <div className="c-134-4959 pos-abs">
-            <span className="c-134-4959-0">{`КГУ “Лицей № 134`}</span>
+            <span className="c-134-4959-0">{`КГУ "Лицей № 134`}</span>
           </div>
 
           <div className="c-10a-4966 pos-abs">
@@ -251,7 +251,7 @@ const SpaceKz = () => {
           </div>
 
           <div className="div-4965 pos-abs">
-            <span className="div-4965-0">{`Заключение`}</span>
+            <span className="div-4965-0"><Link to={"/conclusion"} className="nav1">{`Заключение`}</Link></span>
           </div>
         </section>
       </div>

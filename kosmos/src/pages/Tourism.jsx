@@ -58,7 +58,7 @@ const Tourism = () => {
           </div>
 
           <div className="div-7015 pos-abs">
-            <span className="div-7015-0">{`Заключение`}</span>
+            <span className="div-7015-0"><Link to={"/conclusion"} className="nav1">{`Заключение`}</Link></span>
           </div>
         </section>
         {/* second p1 */}
@@ -234,7 +234,7 @@ const Tourism = () => {
           </div>
 
           <div className="div-7056 pos-abs">
-            <span className="div-7056-0">{`Расходы`}</span>
+            <span className="div-7056-0"><Link to={"/conclusion"} className="nav1">{`Заключение`}</Link></span>
           </div>
 
           <div className="div-7057 pos-abs">

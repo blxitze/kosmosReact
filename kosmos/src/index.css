@@ -1,0 +1,37 @@
+/* Существующие стили */
+
+/* Стили для кнопки скачивания */
+.download-link {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.download-link:hover {
+  text-decoration: underline;
+}
+
+/* Стили для видео */
+video.fill-parent {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Стили для 3D-модели */
+.soyuz-7kok-acti-61114, .image-5-61134 {
+  position: relative;
+  overflow: hidden;
+  border-radius: 8px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+}
+
+.soyuz-7kok-acti-61114 canvas, .image-5-61134 canvas {
+  display: block;
+  width: 100%;
+  height: 100%;
+  outline: none;
+} 

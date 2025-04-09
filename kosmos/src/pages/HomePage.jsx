@@ -37,7 +37,7 @@ const HomePage = () => {
             </div>
 
             <div className="div-115 pos-abs">
-              <span className="div-115-0">{`Заключение`}</span>
+              <span className="div-115-0"><Link to={"/conclusion"} className="nav1">{`Заключение`}</Link></span>
             </div>
           </div>
 
@@ -282,14 +282,14 @@ const HomePage = () => {
         <div className="rectangle-26-177 pos-abs"></div>
 
         <div className="div-178 pos-abs">
-          <span className="div-178-0">{`Скачать`}</span>
+          <a href="/Космотуризм РК.docx" download className="div-178-0 download-link">{`Скачать`}</a>
         </div>
         {/* footer1 */}
         <section className="footer-179 pos-abs">
           <div className="rectangle-27-180 pos-abs"></div>
 
           <div className="c-134-181 pos-abs">
-            <span className="c-134-181-0">{`КГУ “Лицей № 134`}</span>
+            <span className="c-134-181-0">{`КГУ "Лицей № 134`}</span>
           </div>
 
           <div className="c-10a-188 pos-abs">
@@ -326,7 +326,7 @@ const HomePage = () => {
           </div>
 
           <div className="div-187 pos-abs">
-            <span className="div-187-0">{`Заключение`}</span>
+            <span className="div-187-0"><Link to={"/conclusion"} className="nav1">{`Заключение`}</Link></span>
           </div>
         </section>
       </div>
