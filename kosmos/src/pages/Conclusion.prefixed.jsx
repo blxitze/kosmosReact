@@ -67,11 +67,11 @@ const Conclusion = () => {
           </div>
 
           <div className="con-div-71143 pos-abs">
-            <span className="con-div-71143-0"><Link to={"/tourism"} className="nav1">{`Мировой опыт`}</Link></span>
+            <span className="con-div-71143-0"><Link to={"/worldexperience"} className="nav1">{`Мировой опыт`}</Link></span>
           </div>
 
           <div className="con-div-71141 pos-abs">
-            <span className="con-div-71141-0"><Link to={"/conclusion"} className="nav1">{`Космо-туризм`}</Link></span>
+            <span className="con-div-71141-0"><Link to={"/tourism"} className="nav1">{`Космо-туризм`}</Link></span>
           </div>
 
           <div className="con-div-71142 pos-abs">
