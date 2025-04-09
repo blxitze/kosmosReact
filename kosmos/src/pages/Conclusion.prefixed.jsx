@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import '../styles/Conclusion.prefixed.css'
-import { Link } from "react-router-dom";
+import { Link } from "react-router-dom"
 
 const Conclusion = () => {
   return (
