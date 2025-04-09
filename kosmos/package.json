@@ -5,9 +5,10 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "postinstall": "git lfs install && git lfs pull",
+    "build": "vite build"
   },
   "dependencies": {
     "@react-three/drei": "^10.0.6",
