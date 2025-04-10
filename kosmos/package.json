@@ -7,7 +7,6 @@
     "dev": "vite",
     "lint": "eslint .",
     "preview": "vite preview",
-    "postinstall": "git lfs install && git lfs pull",
     "build": "vite build"
   },
   "dependencies": {
