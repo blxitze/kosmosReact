@@ -95,23 +95,25 @@ const Conclusion = () => {
           </div>
 
           <div className="con-rectangle-68-71117 pos-abs">
-            <video 
-              src="/invideo_ai_1080_Миссия_на_Марс_ImranVuHun_Inc_2025_04_07.mp4" 
+            <iframe 
+              src="https://www.youtube.com/embed/77HIpne3yY0?si=uLtJyyHt4JxrOPyO" 
               className="fill-parent" 
-              controls
-              muted
-              preload="metadata"
-            ></video>
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+              title="YouTube video player"
+            ></iframe>
           </div>
 
           <div className="con-rectangle-69-71118 pos-abs">
-            <video 
-              src="/202504070958.mp4" 
+            <iframe 
+              src="https://www.youtube.com/embed/m1LN7TPcD6E?si=3h9pZUdQz3CwKABf" 
               className="fill-parent" 
-              controls
-              muted
-              preload="metadata"
-            ></video>
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+              title="YouTube video player"
+            ></iframe>
           </div>
         </section>
         {/* footer1 */}
