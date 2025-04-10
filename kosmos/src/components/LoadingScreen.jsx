@@ -64,7 +64,7 @@ const LoadingScreen = ({ onLoadingComplete }) => {
         width: '100%', 
         height: '100%' 
       }}>
-        <Canvas camera={{ position: [0, 0, 8], fov: 60 }}>
+        <Canvas camera={{ position: [0, 0, 4], fov: 50 }}>
           <color attach="background" args={['#000a20']} />
           
           {/* Звезды */}
@@ -79,13 +79,13 @@ const LoadingScreen = ({ onLoadingComplete }) => {
           />
           
           {/* Освещение */}
-          <ambientLight intensity={0.5} />
+          <ambientLight intensity={0.8} />
           <spotLight position={[10, 15, 10]} angle={0.3} penumbra={1} intensity={1} />
           <pointLight position={[-10, -10, -10]} color="#ff0055" intensity={1} />
           
           {/* Ракета */}
           <Suspense fallback={null}>
-            <group position={[0, 0, 0]}>
+            <group position={[0, 0, 0]} scale={[0.4, 0.4, 0.4]}>
               <RotatingRocket autoRotate={false} />
             </group>
           </Suspense>
@@ -96,7 +96,7 @@ const LoadingScreen = ({ onLoadingComplete }) => {
             enableZoom={true}
             enablePan={true}
             enableRotate={true}
-            minDistance={5}
+            minDistance={3}
             maxDistance={20}
             minPolarAngle={0}
             maxPolarAngle={Math.PI}
